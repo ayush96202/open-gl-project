@@ -120,6 +120,9 @@ void drawstring1(float x,float y,char *string,int col)
 }
 void display()
 {
+}
+void display1()
+{
     int i=0,j=0,k=0,b[20];
     NODE temp;
     glClearColor(1.0,0.5,0.5,0.0);
