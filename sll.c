@@ -466,6 +466,5 @@ void main(int argc,char** argv)
     glutAddMenuEntry("Exit            ",7);
     glutAttachMenu(GLUT_RIGHT_BUTTON);
     glutDisplayFunc(renderscene);
-    init();
-    glutMainLoop();   
+    init(); 
 }
